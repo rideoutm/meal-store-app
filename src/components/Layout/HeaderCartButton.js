@@ -17,7 +17,7 @@ export default function HeaderCartButton({ onClick }) {
         <CartIcon />
       </span>
       <span>Your Cart</span>
-      <span className={styles.badge}>3</span>
+      <span className={styles.badge}>{numberOfCartItems}</span>
     </button>
   );
 }
