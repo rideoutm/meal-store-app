@@ -50,7 +50,7 @@ export default function AvailableMeals() {
         loadedMeals.push({
           id: key,
           name: resData[key].name,
-          description: resData[key].price,
+          description: resData[key].description,
           price: resData[key].price,
         });
       }
